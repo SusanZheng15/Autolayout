@@ -14,6 +14,7 @@
 		163CF2CA2098AF4300F03C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CF2C82098AF4300F03C03 /* LaunchScreen.storyboard */; };
 		163CF2D52098AF4300F03C03 /* AutoLayout1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CF2D42098AF4300F03C03 /* AutoLayout1Tests.swift */; };
 		163CF2E02098AF4400F03C03 /* AutoLayout1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CF2DF2098AF4400F03C03 /* AutoLayout1UITests.swift */; };
+		163CF2EE2098D0EA00F03C03 /* BirthdayCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CF2ED2098D0EA00F03C03 /* BirthdayCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		163CF2DB2098AF4400F03C03 /* AutoLayout1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		163CF2DF2098AF4400F03C03 /* AutoLayout1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout1UITests.swift; sourceTree = "<group>"; };
 		163CF2E12098AF4400F03C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CF2ED2098D0EA00F03C03 /* BirthdayCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				163CF2BF2098AF4300F03C03 /* AppDelegate.swift */,
 				163CF2C12098AF4300F03C03 /* ViewController.swift */,
+				163CF2ED2098D0EA00F03C03 /* BirthdayCalendarView.swift */,
 				163CF2C32098AF4300F03C03 /* Main.storyboard */,
 				163CF2C62098AF4300F03C03 /* Assets.xcassets */,
 				163CF2C82098AF4300F03C03 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163CF2EE2098D0EA00F03C03 /* BirthdayCalendarView.swift in Sources */,
 				163CF2C22098AF4300F03C03 /* ViewController.swift in Sources */,
 				163CF2C02098AF4300F03C03 /* AppDelegate.swift in Sources */,
 			);
