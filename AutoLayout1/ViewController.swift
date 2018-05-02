@@ -12,10 +12,12 @@ class ViewController: UIViewController {
 
     let birthdayView = BirthdayCalendarView()
   
+    private var dataArray: NSArray = []
+    
     let birthdayImageView: UIImageView = {
         let imageView = UIImageView.init(image: #imageLiteral(resourceName: "birthday"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleAspectFit
         return imageView
         
     }()
@@ -55,6 +57,10 @@ class ViewController: UIViewController {
     }
     
     
+    func populateData(array: NSArray){
+        self.dataArray = array
+    }
+    
     private func setupLayout(){
         
         let topContainer = UIView()
@@ -73,6 +79,7 @@ class ViewController: UIViewController {
         birthdayImageView.centerXAnchor.constraint(equalTo: topContainer.centerXAnchor).isActive = true
         birthdayImageView.centerYAnchor.constraint(equalTo: topContainer.centerYAnchor).isActive = true
         birthdayImageView.heightAnchor.constraint(equalTo: topContainer.heightAnchor, multiplier: 0.5).isActive = true
+        birthdayImageView.widthAnchor.constraint(equalToConstant: 100).isActive = true
 
         topContainer.addSubview(birthdayDescription)
         

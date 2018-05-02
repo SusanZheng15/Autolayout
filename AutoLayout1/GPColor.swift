@@ -8,6 +8,7 @@
 
 import UIKit
 
-class GPColor: NSObject {
-
+class GPColor: UIColor {
+    let lightGreen = UIColor(red:0.22, green:0.71, blue:0.29, alpha:1.0)
+    
 }
